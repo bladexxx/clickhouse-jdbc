@@ -1,7 +1,8 @@
-```Modify ClickHouseDatabaseMetadata.java for Dremio Support
+
+### Modify ClickHouseDatabaseMetadata.java for Dremio Support
 ```getTables //row.add(DEFAULT_CAT); row.add(NULL);
 ``` this change will avoid the error: "two components in table expression."
-```
+
 
 ClickHouse JDBC driver
 ===============

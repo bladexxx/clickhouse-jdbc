@@ -1,3 +1,8 @@
+```Modify ClickHouseDatabaseMetadata.java for Dremio Support
+```getTables //row.add(DEFAULT_CAT); row.add(NULL);
+``` this change will avoid the error: "two components in table expression."
+```
+
 ClickHouse JDBC driver
 ===============
 [![clickhouse-jdbc](https://maven-badges.herokuapp.com/maven-central/ru.yandex.clickhouse/clickhouse-jdbc/badge.svg)](https://maven-badges.herokuapp.com/maven-central/ru.yandex.clickhouse/clickhouse-jdbc) ![Build Status(https://github.com/ClickHouse/clickhouse-jdbc/workflows/Build/badge.svg)](https://github.com/ClickHouse/clickhouse-jdbc/workflows/Build/badge.svg) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=ClickHouse_clickhouse-jdbc&metric=coverage)](https://sonarcloud.io/dashboard?id=ClickHouse_clickhouse-jdbc)

@@ -718,7 +718,9 @@ public class ClickHouseDatabaseMetadata implements DatabaseMetaData {
         List typeList = types != null ? Arrays.asList(types) : null;
         while (result.next()) {
             List<String> row = new ArrayList<>();
-            row.add(DEFAULT_CAT);
+            //FOR DREMIO
+            //row.add(DEFAULT_CAT);
+             row.add(NULL);
             row.add(result.getString(1));
             row.add(result.getString(2));
             String type, e = result.getString(3).intern();
